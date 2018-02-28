@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('./assets/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: Didot, serif;
+    font-size: 20px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+}
+.logo{
+  width: 200px;
+  padding: 20px;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <img class="logo" src="./assets/logo.svg">
+  </div>
+  <div class="text">
+    <h1>COMING SOON</h1>
+  </div>
+  <div class="bottomright">
+    <p>We are working on it...</p>
+  </div>
+</div>
+
+</body>
+</html>
