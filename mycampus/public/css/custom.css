@@ -1,0 +1,143 @@
+/* html setting */
+body{
+  background-image: url(../img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+
+}
+#login-box{
+  margin-top: 2em;
+  width: 17em;
+  height: 15em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-border-left{
+  padding-left: 2rem;
+  border-left: 2px solid black;
+  color: white;
+}
+
+.user-hi{
+  color: white;
+  font-size: 1.3em;
+}
+.container-create{
+  padding: 0;
+  height: 50em;
+}
+.sub-login-nav{
+
+}
+.navbar-brand{
+  width: 10%;
+}
+.jumbotron{
+    background-color: white;
+}
+/* .container{
+  width: 100%;
+} */
+/* .btn-block{
+  margin-top: 1rem;
+}
+
+.col.left-line{
+    position: relative;
+    width: 50%;
+    min-height: 1px;
+    padding:0px;
+    border-right:2px solid;
+    margin-right: 2rem;
+
+} */
+
+.btn-outline-dark{
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   float: right;
+   border:2px solid;
+   margin-right: 2em;
+}
+
+.nav-item {
+    padding-left:2em;
+    margin-left: 0;
+    font-family: Times, serif;
+}
+#nav-project{
+  width: 10em;
+}
+
+.image-fluid{
+   width: 20px;
+}
+#logo-pos{
+  padding-top: 2em;
+  padding-left: 2em;
+}
+.login-font{
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+#loginbox{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.intro-text{
+  margin-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.container {
+    width: 60%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 5em;
+    margin-right: auto;
+    margin-left: auto;
+}
+.browse-button{
+  padding-right: 10em;
+}
+/* home: laptop frame */
+div.laptop-wrapper {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+div.laptop-wrapper iframe {
+    box-sizing: border-box;
+    background: url(https://i.stack.imgur.com/zZNgk.png) center center no-repeat;
+    background-size: contain;
+    padding: 11.9% 15.5% 14.8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+.create-success{
+    text-align: center;
+}
